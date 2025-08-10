@@ -36,7 +36,7 @@
       }
     </style>
   </head>
-  <body id="background" class="px-14 pt-2 pb-4 bg-[#F4F7FF] poppins-regular">
+  <body id="background" class="lg:px-14 md:px-1 pt-2 pb-4 bg-[#F4F7FF] poppins-regular">
     <section class="min-h-screen">
       <header class="">
         <nav
@@ -72,9 +72,9 @@
       <main class="flex mt-2 gap-2 rounded-lg">
         <!-- DashBord section -->
         <section class="bg-white w-3/4 rounded-lg">
-          <div class="flex gap-3 p-2 border-b-2">
+          <div class="grid lg:grid-cols-3 md:grid-cols-1  gap-3 p-2 border-b-2">
             <div
-              class="flex items-center p-2 py-1 gap-2 w-2/4 bg-[#F4F7FF] justify-items-center rounded-lg"
+              class="flex items-center p-2 py-1 gap-2 bg-[#F4F7FF] justify-items-center rounded-lg"
             >
               <div class="hover:bg-green-300">
                 <img
@@ -90,13 +90,13 @@
             </div>
             <div
               id="discover-btn"
-              class="bg-gradient-to-r from-indigo-500 from-0% via-[#6C7FFA] via-53% to-[#9BA8F8] to-100% rounded-lg flex w-full p-2 items-center justify-center"
+              class="bg-gradient-to-r from-indigo-500 from-0% via-[#6C7FFA] via-53% to-[#9BA8F8] to-100% rounded-lg flex p-2 items-center justify-center"
             >
               <img class="w-20" src="assets/board.png" alt="" />
               <p class="text-color-2 text-lg">Discover Something New Today!</p>
             </div>
             <div
-              class="bg-[#F4F7FF] rounded-lg w-2/4 flex items-center gap-2 p-2"
+              class="bg-[#F4F7FF] rounded-lg flex items-center gap-2 p-2"
             >
               <div class="hover:bg-green-300">
                 <img
@@ -110,9 +110,8 @@
               </div>
             </div>
           </div>
-
           <!-- Card sections -->
-          <section class="grid grid-cols-3 gap-2 mt-3 p-2">
+          <section class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2 mt-3 p-2">
             <div class="bg-[#F4F7FF] p-3 space-y-2 rounded-lg">
               <div class="bg-white rounded-full p-1 w-24 text-center">
                 <p class="text-color-1">ShopEase</p>
