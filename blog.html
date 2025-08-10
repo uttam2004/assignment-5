@@ -30,7 +30,9 @@
             </h3>
           </div>
           <div>
-            <button id="back-btn" class="btn text-white bg-blue-600">Back to Desk</button>
+            <button id="back-btn" class="btn text-white bg-blue-600">
+              Back to Desk
+            </button>
           </div>
         </nav>
       </div>
@@ -38,54 +40,89 @@
       <!-- Question containers -->
       <section class="space-y-3">
         <div>
-            <div class="bg-white p-4 border-b rounded-md">
-                <h3 class="font-bold text-lg">Question-1: What are the different ways to select an element in the DOM?</h3>
-            </div>
-            <div>
-                <p class="bg-white p-4 rounded-md">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi suscipit possimus quo fugit aliquid laborum rem consequatur facilis nulla iusto! Dolorum dolores magni ipsa est!
-                </p>
-            </div>
+          <div class="bg-white p-4 border-b rounded-md">
+            <h3 class="font-bold text-lg">
+              Question-1: What are the different ways to select an element in
+              the DOM?
+            </h3>
+          </div>
+          <div>
+            <p class="bg-white p-4 rounded-md">
+              There are several ways to select an element in the DOM (Document
+              Object Model) using JavaScript. Each method has its own use case
+              depending on what kind of element you're trying to access and how
+              specific or broad your selection needs to be.
+            </p>
+          </div>
         </div>
         <div>
-            <div class="bg-white p-4 border-b rounded-md">
-                <h3 class="font-bold text-lg">Question-1: What are the different ways to select an element in the DOM?</h3>
-            </div>
-            <div>
-                <p class="bg-white p-4 rounded-md">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi suscipit possimus quo fugit aliquid laborum rem consequatur facilis nulla iusto! Dolorum dolores magni ipsa est!
-                </p>
-            </div>
+          <div class="bg-white p-4 border-b rounded-md">
+            <h3 class="font-bold text-lg">
+              Question-2: What is the difference between innerHTML, innerText,
+              and textContent ?
+            </h3>
+          </div>
+          <div>
+            <p class="bg-white p-4 rounded-md">
+              Great question! Understanding the differences between innerHTML,
+              innerText, and textContent is important when working with the DOM.
+              These properties are used to get or set the content of elements,
+              but they behave differently in terms of HTML parsing, performance,
+              and visibility rules.
+            </p>
+          </div>
         </div>
         <div>
-            <div class="bg-white p-4 border-b rounded-md">
-                <h3 class="font-bold text-lg">Question-1: What are the different ways to select an element in the DOM?</h3>
-            </div>
-            <div>
-                <p class="bg-white p-4 rounded-md">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi suscipit possimus quo fugit aliquid laborum rem consequatur facilis nulla iusto! Dolorum dolores magni ipsa est!
-                </p>
-            </div>
+          <div class="bg-white p-4 border-b rounded-md">
+            <h3 class="font-bold text-lg">
+              Question-3: What is event delegation in the DOM?
+            </h3>
+          </div>
+          <div>
+            <p class="bg-white p-4 rounded-md">
+              Event delegation in the DOM is a technique where instead of
+              attaching event listeners to individual child elements, a single
+              event listener is attached to a common parent element. This works
+              because events in the DOM bubble up from the target element to its
+              ancestors, allowing the parent to "catch" events from its
+              children.
+            </p>
+          </div>
         </div>
         <div>
-            <div class="bg-white p-4 border-b rounded-md">
-                <h3 class="font-bold text-lg">Question-1: What are the different ways to select an element in the DOM?</h3>
-            </div>
-            <div>
-                <p class="bg-white p-4 rounded-md">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi suscipit possimus quo fugit aliquid laborum rem consequatur facilis nulla iusto! Dolorum dolores magni ipsa est!
-                </p>
-            </div>
+          <div class="bg-white p-4 border-b rounded-md">
+            <h3 class="font-bold text-lg">
+              Question-4: What is event bubbling in the DOM?
+            </h3>
+          </div>
+          <div>
+            <p class="bg-white p-4 rounded-md">
+              Event bubbling in the DOM is a behavior where an event triggered
+              on a child element propagates upward through its ancestors in the
+              DOM tree.
+            </p>
+          </div>
         </div>
         <div>
-            <div class="bg-white p-4 border-b rounded-md">
-                <h3 class="font-bold text-lg">Question-1: What are the different ways to select an element in the DOM?</h3>
-            </div>
-            <div>
-                <p class="bg-white p-4 rounded-md">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi suscipit possimus quo fugit aliquid laborum rem consequatur facilis nulla iusto! Dolorum dolores magni ipsa est!
-                </p>
-            </div>
+          <div class="bg-white p-4 border-b rounded-md">
+            <h3 class="font-bold text-lg">
+              Question-5: How do you create, add, and remove elements using
+              JavaScript?
+            </h3>
+          </div>
+          <div>
+            <p class="bg-white p-4 rounded-md">
+              1.document.createElement() to create a new HTML element in
+              JavaScript. <br>
+              2.const parent = document.getElementById("container");
+              // Add as the last child parent. appendChild(newElement); // Or
+              add as the first child parent.prepend(newElement); <br>
+
+              3.const parent = document.getElementById("container");
+              const child = document.getElementById("myParagraph");
+              parent.removeChild(child);
+            </p>
+          </div>
         </div>
       </section>
     </section>
