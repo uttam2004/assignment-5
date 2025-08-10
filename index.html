@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment no-5</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body id="background" class="px-14 pt-2 pb-4 bg-slate-100">
+    <section class="min-h-screen">
+      <header class="">
+        <nav
+          class="flex justify-between items-center bg-white px-2 py-1 rounded-lg"
+        >
+          <div class="flex gap-1 items-center">
+            <img
+              class="w-8 bg-gray-50 p-1 hover:bg-green-300"
+              src="assets/logo.png"
+              alt=""
+            />
+            <h3 class="flex items-center">
+              Dev <span class="text-lg font-bold">Board</span>
+            </h3>
+          </div>
+          <div class="flex gap-3 items-center">
+            <div
+              class="flex gap-1 bg-gray-50 items-center rounded-full p-2 hover:bg-green-300"
+            >
+              <img class="w-5 h-5" src="assets/checkbox.png" alt="" />
+              <h4 id="active-task" class="font-bold">23</h4>
+            </div>
+            <div id="colorBtn" class="hover:bg-green-300">
+              <img
+                class="bg-slate-200 rounded-full p-1 w-7"
+                src="assets/theme-btn.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main class="flex mt-2 gap-2 rounded-lg">
+        <!-- DashBord section -->
+        <section class="bg-white w-3/4 rounded-lg">
+          <div class="flex gap-3 p-2 border-b-2">
+            <div
+              class="flex items-center p-2 py-1 gap-2 w-2/4 bg-lime-100 justify-items-center rounded-lg"
+            >
+              <div class="hover:bg-green-300">
+                <img
+                  class="bg-slate-200 rounded-full p-1 w-7"
+                  src="assets/checkbox.png"
+                  alt=""
+                />
+              </div>
+              <div class="-space-y-2">
+                <p>Task Assiged</p>
+                <h3 id="task-number" class="font-bold text-lg">6</h3>
+              </div>
+            </div>
+            <div
+              id="discover-btn" class="bg-blue-300 rounded-lg flex w-full p-2 items-center justify-center"
+            >
+              <img class="w-20" src="assets/board.png" alt="" />
+              <p>Discover Something New Today!</p>
+            </div>
+            <div
+              class="bg-lime-100 rounded-lg w-2/4 flex items-center gap-2 p-2"
+            >
+              <div class="hover:bg-green-300">
+                <img
+                  class="bg-gray-50 p-1 w-7 rounded-full"
+                  src="assets/calender.png"
+                  alt=""
+                />
+              </div>
+              <div>
+                <p>wed March 24 2025</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card sections -->
+          <section class="grid grid-cols-3 gap-2 mt-3 p-2">
+            <div class="bg-indigo-200 p-3 space-y-2 rounded-lg">
+              <div class="bg-gray-50 rounded-full p-1 w-24 text-center">
+                <p>Shop Ease</p>
+              </div>
+              <h3 id="title-1" class="font-semibold text-lg">
+                Fix Mobile Button Issue
+              </h3>
+              <div class="bg-white p-1 rounded-md">
+                <p>
+                  A card component has a figure,a body part, and inside body
+                  there are title and actions parts
+                </p>
+              </div>
+              <div class="flex items-center justify-between">
+                <div>
+                  <p>Deadline</p>
+                  <p>21 March 2025</p>
+                </div>
+                <button id="btn-1" class="btn bg-blue-600 text-white w-24">
+                  Completed
+                </button>
+              </div>
+            </div>
+            <div class="bg-indigo-200 p-3 space-y-2 rounded-lg">
+              <div class="bg-gray-50 rounded-full p-1 w-24 text-center">
+                <p>Soft Pay</p>
+              </div>
+              <h3 id="title-2" class="font-semibold text-lg">
+                Add Pay Success Modal
+              </h3>
+              <div class="bg-white p-1 rounded-md">
+                <p>
+                  A card component has a figure,a body part, and inside body
+                  there are title and actions parts
+                </p>
+              </div>
+              <div class="flex items-center justify-between">
+                <div>
+                  <p>Deadline</p>
+                  <p>21 March 2025</p>
+                </div>
+                <button id="btn-2" class="btn bg-blue-600 text-white w-24">
+                  Completed
+                </button>
+              </div>
+            </div>
+            <div class="bg-indigo-200 p-3 space-y-2 rounded-lg">
+              <div class="bg-gray-50 rounded-full p-1 w-24 text-center">
+                <p>Meta</p>
+              </div>
+              <h3 id="title-3" class="font-semibold text-lg">
+                Add New Reaction
+              </h3>
+              <div class="bg-white p-1 rounded-md">
+                <p>
+                  A card component has a figure,a body part, and inside body
+                  there are title and actions parts
+                </p>
+              </div>
+              <div class="flex items-center justify-between">
+                <div>
+                  <p>Deadline</p>
+                  <p>21 March 2025</p>
+                </div>
+                <button id="btn-3" class="btn bg-blue-600 text-white w-24">
+                  Completed
+                </button>
+              </div>
+            </div>
+            <div class="bg-indigo-200 p-3 space-y-2 rounded-lg">
+              <div class="bg-gray-50 rounded-full p-1 w-36 text-center">
+                <p>Programming Hero</p>
+              </div>
+              <h3 id="title-4" class="font-semibold text-lg">
+                Fix Video Loding Issue
+              </h3>
+              <div class="bg-white p-1 rounded-md">
+                <p>
+                  A card component has a figure,a body part, and inside body
+                  there are title and actions parts
+                </p>
+              </div>
+              <div class="flex items-center justify-between">
+                <div>
+                  <p>Deadline</p>
+                  <p>21 March 2025</p>
+                </div>
+                <button id="btn-4" class="btn bg-blue-600 text-white w-24">
+                  Completed
+                </button>
+              </div>
+            </div>
+            <div class="bg-indigo-200 p-3 space-y-2 rounded-lg">
+              <div class="bg-gray-50 rounded-full p-1 w-24 text-center">
+                <p>Goggle LLC</p>
+              </div>
+              <h3 id="title-5" class="font-semibold text-lg">
+                Integrate AI search
+              </h3>
+              <div class="bg-white p-1 rounded-md">
+                <p>
+                  A card component has a figure,a body part, and inside body
+                  there are title and actions parts
+                </p>
+              </div>
+              <div class="flex items-center justify-between">
+                <div>
+                  <p>Deadline</p>
+                  <p>21 March 2025</p>
+                </div>
+                <button id="btn-5" class="btn bg-blue-600 text-white w-24">
+                  Completed
+                </button>
+              </div>
+            </div>
+            <div class="bg-indigo-200 p-3 space-y-2 rounded-lg">
+              <div class="bg-gray-50 rounded-full p-1 w-28 text-center">
+                <p>Polygon Tech</p>
+              </div>
+              <h3 id="title-6" class="font-semibold text-lg">
+                Review RMI Probashi Site
+              </h3>
+              <div class="bg-white p-1 rounded-md">
+                <p>
+                  A card component has a figure,a body part, and inside body
+                  there are title and actions parts
+                </p>
+              </div>
+              <div class="flex items-center justify-between">
+                <div>
+                  <p>Deadline</p>
+                  <p>21 March 2025</p>
+                </div>
+                <button id="btn-6" class="btn bg-blue-600 text-white w-24">
+                  Completed
+                </button>
+              </div>
+            </div>
+          </section>
+        </section>
+        <!-- Activity section -->
+        <section class="bg-white p-2 w-1/4 rounded-lg">
+          <div class="justify-items-center space-y-2 border-b-2 pb-2">
+            <div class="flex gap-2 items-center justify-center">
+              <img class="w-4" src="assets/activity.png" alt="" />
+              <p>Activity log</p>
+            </div>
+            <div>
+              <button id="clearhistory-btn" class="btn bg-blue-600 border-none">
+                Clear History
+              </button>
+            </div>
+          </div>
+
+          <!-- history container -->
+          <div id="history-container"></div>
+        </section>
+      </main>
+    </section>
+    <script src="./script/utilites.js"></script>
+    <script src="./script/button.js"></script>
+    <script src="./script/clearHistory.js"></script>
+  </body>
+</html>
